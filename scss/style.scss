@@ -1,0 +1,34 @@
+@import "_header";
+@import "_footer";
+
+body {
+	font-size: 20px;
+	div {
+		font-size: 10px;
+		font-weight: 700;
+		line-height: 2;
+	}
+}
+.list {
+	font-style: italic;
+	font-size: 14px;
+}
+
+.block {
+	&__item {
+	}
+
+	&__item-1 {
+	}
+}
+
+.red {
+	color: red;
+}
+
+.image {
+	flex: 0 0 200px; // Запрещает картинке увеличиваться/уменьшаться. Размер строго 200px.
+	& img {
+		max-width: 100%;
+	}
+}

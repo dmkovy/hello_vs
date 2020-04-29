@@ -1,0 +1,32 @@
+header {
+  font-size: 24px;
+}
+
+body {
+  font-size: 20px;
+}
+
+body div {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 2;
+}
+
+.list {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.red {
+  color: red;
+}
+
+.image {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 200px;
+          flex: 0 0 200px;
+}
+
+.image img {
+  max-width: 100%;
+}
